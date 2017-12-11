@@ -1,11 +1,6 @@
-const driver = 'bob';
-
+var driver = 'bob';
 console.log("this code was called");
 
-console.log(driver);
+console.log (driver);
 
-console.log (driver, "is the driver variable name");
-
-console.warn("Stop Now")
-
-console.error("Final Warning!")
+console.log (driver, `is the driver variable name`);
